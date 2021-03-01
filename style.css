@@ -42,15 +42,17 @@ li a:hover {
 /*End of navbar*/
 
 .container{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .wrapper {
     margin-top: 12%;
-    margin-left: 17%;
+    margin-left: 15rem;
     /*width: 100px;*/
     /*height: 100px;*/
+    position: relative;
 }
 /*End of logo*/
 
@@ -59,32 +61,29 @@ li a:hover {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    border: 1px solid #dadce0;
+    border: 1px solid #dfe1e5;
     border-radius: 25px;
     font-size: 16px;
-    height: 42px;
     width: 36rem;
-    top: 38%;
-    left: 32%;
+    top: 8rem;
+    left: -10rem;
     box-shadow:0 0 0 0 #b2b2b2;
 }
 .search_engine:hover {
-    box-shadow:1px 1px 2px 2px #ededed;
+    box-shadow:1px 1px 1px 2px #f1f1f1;
 
 }
 .searchIcon{
-    width: 17px;
     margin-top: 12px;
-    margin-left: -70px;
-    color: #c6c6c6;
+    margin-left: 15px;
+    color: #d0d0d0;
 }
 .box_input {
-    position: absolute;
     height: 25px;
-    width:100%;
+    width:89%;
     padding: 8px;
     /*margin:8px;*/
-    left:100px;
+    margin-right:25rem;
     border:none;
     display: flex;
     outline: none;
